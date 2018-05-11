@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WmiActivity" >
+
+    <EditText
+        android:id="@+id/ta_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView01"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ta_user"
+        android:layout_alignLeft="@+id/ta_user"
+        android:layout_marginBottom="52dp"
+        android:text="@string/user" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ta_user"
+        android:layout_below="@+id/ta_user"
+        android:layout_marginTop="20dp"
+        android:text="@string/pwd" />
+
+    <EditText
+        android:id="@+id/ta_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ta_pwd"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignRight="@+id/ta_user"
+        android:src="@drawable/awal" android:contentDescription="@null"/>
+
+    <ImageButton
+        android:id="@+id/bta_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ta_pwd"
+        android:layout_below="@+id/ta_pwd"
+        android:contentDescription="@null"
+        android:src="@drawable/delete2" />
+
+    <ImageButton
+        android:id="@+id/bta_masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bta_close"
+        android:layout_toLeftOf="@+id/bta_close"
+        android:contentDescription="@null"
+        android:src="@drawable/nav_down_right_blue" />
+
+</RelativeLayout>

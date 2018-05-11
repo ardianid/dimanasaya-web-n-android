@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wmi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="user">User :</string>
+    <string name="pwd">Password :</string>
+    <string name="nama_pemilik">Pemilik :</string>
+    <string name="sama_dengan">:</string>
+    <string name="notelp">No Telp :</string>
+    <string name="jarak">Repeat At</string>
+    <string name="nsms">Sms</string>
+    <string name="ntelp">Telp</string>
+    <string name="rptat">Repeat At</string>
+    <string name="otheract">Other Act</string>
+    <string name="cuser">Change User</string>
+    <string name="bt_simpan">Simpan</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="jnismnitor">Jenis Monitor :</string>
+
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <ImageButton
+            android:id="@+id/btsimpan"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/check2" />
+
+        <ImageButton
+            android:id="@+id/btcancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/delete2" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tableRow6"
+        android:layout_alignParentLeft="true"
+        android:visibility="visible" >
+
+        <ImageButton
+            android:id="@+id/btrubahpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/rubahuser" />
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1pemi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_pemilik" />
+
+        <EditText
+            android:id="@+id/tpemilik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/notelp" />
+
+        <EditText
+            android:id="@+id/ttelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="@string/jnismnitor" />
+
+        <Spinner
+            android:id="@+id/cbjnismonitor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow3" >
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/otheract" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sama_dengan" />
+
+        <CheckBox
+            android:id="@+id/csms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nsms" />
+    </TableRow>
+
+    <CheckBox
+        android:id="@+id/ctelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow4"
+        android:layout_marginLeft="75dp"
+        android:text="@string/ntelp" />
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/jarak" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sama_dengan" />
+
+        <EditText
+            android:id="@+id/tjarak"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number|numberDecimal" />
+
+    </TableRow>
+
+</RelativeLayout>
